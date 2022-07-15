@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(1, 31, 46);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+	background-color:rgb(138, 212, 247);
+	height:21rem;
+	width:50rem;
+	visibility: hidden;
+}
+#box>input{
+	padding:1rem;
+}
+#box.show{
+	visibility: visible;
+}
+.material-symbols-outlined{
+	float:right;
+    padding: 10px;
+}
+.material-symbols-outlined:hover{
+    background-color: rgb(161, 227, 244);
+    cursor: pointer;
+}
+
+#box>form>p{
+	color:rgb(19, 131, 179);
+}

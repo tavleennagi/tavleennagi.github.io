@@ -1,0 +1,19 @@
+body{
+    background-image: url('icon-pattern-backgrounds-53906.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+h2{
+    text-align: center;
+}
+.container{
+    background-color: rgb(1, 30, 62);
+    
+    max-width: 600px;
+    min-height: 545px;
+}
+.searchbar {
+    height: 30px;
+    width: 1px;
+}
